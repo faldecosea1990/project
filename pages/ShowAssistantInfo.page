@@ -1,0 +1,7 @@
+<apex:page standardController="Contact" >
+    <apex:pageBlock >
+    	<apex:outputText value="{! Contact.AssistantName }"></apex:outputText>
+    
+    	 <a title="Call Assistant" href="tel:{!contact.AssistantPhone}">  {! Contact.AssistantPhone }</a>
+    </apex:pageBlock>
+</apex:page>

@@ -1,0 +1,15 @@
+<apex:page title="Business Card Information"> 
+     <div class="mypage">
+        Business Card Information: 
+    </div>
+        <apex:pageBlock title="Business Card Information" > 
+            <!-- Cases List --> 
+               <apex:outputLink value="/{! $User.Id}">{!$User.Id}</apex:outputLink> <br/>  
+               <apex:outputLink value="/{!$User.FirstName}">{!$User.FirstName}</apex:outputLink> <br/>  
+               <apex:outputLink value="/{!$User.FirstName}">{!$User.LastName}</apex:outputLink> <br/>  
+               <apex:outputLink value="/{!$User.FirstName}">{!$User.Email}</apex:outputLink> <br/>  
+               <apex:outputLink value="/{!$User.FirstName}">{!$User.Phone}</apex:outputLink> <br/>   
+               <apex:outputLink value="/{!$User.Title}">{!$User.Phone}</apex:outputLink> <br/> 
+            <br/>   
+        </apex:pageBlock> 
+</apex:page>

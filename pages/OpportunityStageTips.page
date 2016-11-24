@@ -1,0 +1,12 @@
+<apex:page standardController="Opportunity"> 
+        <apex:form >
+            <apex:pageBlock title="Opportunities List" id="opportunities_list"> 
+                <!-- Cases List -->
+                <apex:repeat var="opportunity" value="{! Opportunity}">
+                   <apex:outputLink value="/{!opportunity.Id}">{!opportunity.Id}</apex:outputLink>
+                   <!-- <apex:outputLink rendered="{! if(opportunity.StageName == 'Prospecting',true,false)" value="/{!opportunity.StageName}">{!opportunity.StageName}</apex:outputLink>
+                   --><br/> 
+                </apex:repeat> 
+            </apex:pageBlock>
+        </apex:form>
+    </apex:page>

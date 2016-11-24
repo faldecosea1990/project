@@ -1,0 +1,5 @@
+<apex:page docType="html-5.0" title="Hello Mobile">
+    <div class="mypage">
+        <h2>Hello mobile</h2> 
+    </div>  
+</apex:page>
