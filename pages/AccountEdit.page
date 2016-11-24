@@ -2,7 +2,7 @@
     <apex:form ><!--00141000009qeuP-->
     
     <apex:pageBlock title="Edit Account">
-
+ 
         <apex:pageBlockSection columns="1">
             <apex:inputField value="{! Account.Name }"/>
             <apex:inputField value="{! Account.Phone }"/>        
